@@ -36,8 +36,27 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
   <script>
-    var serviceWorkerVersion = '944349279';
+    var firebaseConfig = {
+      apiKey: "AIzaSyAZZzevTTTU6zxw1ahzaqwiRxqHk7gcKZc",
+      authDomain: "shamil-90141.firebaseapp.com",
+      projectId: "shamil-90141",
+      storageBucket: "shamil-90141.appspot.com",
+      messagingSenderId: "548242659906",
+      appId: "1:548242659906:web:666d80cb908bb8cfd42bdb",
+      measurementId: "G-89KVRZBG1E"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <script>
+    var serviceWorkerVersion = '1738055359';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
