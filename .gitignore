@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-canvaskit/
 # Miscellaneous
 *.class
 *.lock
@@ -141,4 +139,3 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
->>>>>>> fe6f9e16024468a4ddbe9950ce95b4cdbcb79161
